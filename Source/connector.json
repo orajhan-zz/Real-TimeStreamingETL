@@ -6,7 +6,7 @@
   "connection.url": "jdbc:oracle:thin:@atp_high?TNS_ADMIN=/wallet",
   "connection.user": "admin",
   "connection.password": "YourPassword",
-	"mode": "incrementing",
+  "mode": "incrementing",
   "incrementing.column.name": "SERIALNUM",
   "topic.prefix": "jhanstreaming-",
   "table.whitelist": "COVID",

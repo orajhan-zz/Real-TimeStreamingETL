@@ -1,0 +1,15 @@
+{
+ "name": "atp-source-connector",
+ "config": {
+  "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
+  "tasks.max": "1",
+  "connection.url": "jdbc:oracle:thin:@atp_high?TNS_ADMIN=/wallet",
+  "connection.user": "admin",
+  "connection.password": "YourPassword",
+	"mode": "incrementing",
+  "incrementing.column.name": "SERIALNUM",
+  "topic.prefix": "jhanstreaming-",
+  "table.whitelist": "COVID",
+  "numeric.mapping": "best_fit"
+ }
+}

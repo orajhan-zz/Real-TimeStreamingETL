@@ -2,7 +2,7 @@
  "name": "adw-sink-connector",
  "config": {
   "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
-  "tasks.max": "1",
+  "tasks.max": "100",
   "topics": "jhanstreaming-COVID",
   "connection.url": "jdbc:oracle:thin:@adw_high?TNS_ADMIN=/wallet",
   "connection.user": "admin",

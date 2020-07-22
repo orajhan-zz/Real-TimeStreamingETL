@@ -9,7 +9,7 @@
   "mode": "incrementing",
   "incrementing.column.name": "SERIALNUM",
   "topic.prefix": "jhanstreaming-",
-  "table.whitelist": "COVID",
+  "table.whitelist": "TEST",
   "numeric.mapping": "best_fit"
  }
 }
